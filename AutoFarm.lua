@@ -27,6 +27,6 @@ while true do
     rebirthRemote:FireServer()
     print("[AutoFarm]: Rebirthed! Current Rebirths: "..Rebirths)
     queue_on_teleport('loadstring(game:HttpGet(""))()')
-game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
-    wait(100)
+    game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
+    wait(1)
 end
