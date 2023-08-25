@@ -26,7 +26,7 @@ while true do
     end
     rebirthRemote:FireServer()
     print("[AutoFarm]: Rebirthed! Current Rebirths: "..Rebirths)
-    queue_on_teleport('loadstring(game:HttpGet(""))()')
+    queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/Nexiss5/Scripts/main/AutoFarm.lua"))()')
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
     wait(1)
 end
